@@ -1,0 +1,36 @@
+.footer {
+    background-color: #6278f7;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 5rem 0 3rem 0;
+    text-align: center;
+}
+
+.footer .social ul {
+    list-style: none;
+}
+
+.footer .social ul li{
+    display: inline-block;
+    margin-right: 2rem
+}
+
+.footer .social ul li:last-child{
+    margin-right: 0
+}
+
+.footer .social ul li img {
+    width: 80%;
+}
+
+.footer .logo img {
+    width: 85%;
+}
+
+.footer .creditos {
+    color: #F0F0F0;
+    font-weight: 400
+}
